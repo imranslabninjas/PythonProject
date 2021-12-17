@@ -1,3 +1,5 @@
+from datetime import *
+
 borning_year = input("In which year where you born\n->")
 borning_month = input("In which month were you born\n->")
 if borning_month == "January":
@@ -25,8 +27,11 @@ elif borning_month =="November":
 elif borning_month =="December":
     borning_month = 12
 
-age_y = 2021-int(borning_year)
+age_y = datetime.now().year-int(borning_year)
 age_m = 12-int(borning_month)
 print("You are {0} years and {1} months old".format(age_y,age_m))
+
+
+
 
 
