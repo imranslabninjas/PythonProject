@@ -21,7 +21,7 @@ print(linked_lst)
 linked_lst.insert(1, 'Unknown Planet')
 
 # ei link list er shob elements
-print("All Elements of Linked List are")
+print("All Elements of Linked List are ")
 print(linked_lst)
 
 # last element pop kora
