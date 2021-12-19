@@ -3,7 +3,7 @@ guessing = int(input("Guess a number:"))
 #having a loop so that if the user types any other thing the code re-runs
 while guessing>= 10:
     guessing = int(input("Guess a number:"))
-#if statements so that
+#if statements to meet the conditions
 if (guessing)<1 or int(guessing)>9:
     guessing = input("Guess a number:")
 
