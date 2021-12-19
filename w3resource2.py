@@ -1,4 +1,5 @@
 # Please add question in the file so that others who are reading gets a context
+# Please move the Files Under Appropriate folder (Come up with folder structure {may be Excercises/ Scratchpad/ Zarif})
 
 temp = input("What's the temp\n")
 con1 = input("Convert into C or celcius and F for farenheit\n")
