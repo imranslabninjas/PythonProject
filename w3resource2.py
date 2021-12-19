@@ -1,3 +1,5 @@
+# Please add question in the file so that others who are reading gets a context
+
 temp = input("What's the temp\n")
 con1 = input("Convert into C or celcius and F for farenheit\n")
 con2 = 0
