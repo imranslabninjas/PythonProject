@@ -17,21 +17,23 @@ linked_lst.append('Pluto')
 print("All Elements of Linked List are :")
 print(linked_lst)
 
-# adding element at an arbitrary position
+# add element in arbitrary index
 linked_lst.insert(1, 'Unknown Planet')
 
-print("All Elements of Linked List are :")
+# ei link list er shob elements
+print("All Elements of Linked List are ")
 print(linked_lst)
 
-# deleting the last element
+# last element pop kora
 linked_lst.pop()
 
 print("elements in the linked_list:")
 print(linked_lst)
 
-# removing a specific element
+# ekta specific element remove kora
 linked_lst.remove('fourth')
 
-print("elements in the linked_list:")
+# ekhn linked list er bhitor ja ja ache
+print("elements in the linked_list")
 print(linked_lst)
 
