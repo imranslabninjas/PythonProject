@@ -1,0 +1,48 @@
+Perusal words and things to know
+Well if you read the first two exercises and have done it .You may have used “cd” ,”mkdir”,”dir”.
+“cd” stands for change directory.It means you’re moving into a file for example my file name is
+“lemonjuice”.So to enter in lemonjuice through terminal,We will type “cd lemonjuice” ;now you have
+entered the file.Now let’s suppose you want to go back then you can type “cd ..” . “cd ..” takes
+you to the parent folder of the folder you were in .Now comes “mkdir”.mk refers to make and dir refers
+to directory , in simple terms folder.Now let’s say I want to make a directory(folder) name “orangejuice"
+then we can type “mkdir orangejuice” and a folder/directory/repository is made in you laptop .Last but not
+least is dir .When you type “dir” , the list of of files you have in that folder shows up . You can also
+use “ls”. Now let say I have folder named “applejuice” and it has many files so now if I want those files’
+names show up in my terminal ,I will type “ls”
+and BOOM! Now I can see all the files name in applejuice.
+Exercise-0
+Here we will be setting up everything to write, run code in python. The book will say you to start notepad++
+instead of using a real IDE(Integrated.Development.Kit). Notepad++ is a text code editor as the writer mentioned.
+I would say you to start with Pycharm which is an IDE for python especially. Besides the book also say to download
+python2 instead of python3.Python 3 is more in-demand and python2 is outdated.So start with Pycharm and python3.In
+these exercise you will need to make a directory and move into it through terminal.
+Exercise-1
+In these exercise you will start writing code. So now open the python file you saved last time named ex1(mentioned by book).
+Starting with most easiest python function print().By using print u can show up any text,number,image. Here we are gonna write
+print(“Hello,World”) which when you run shows, Hello World. Important thing to note , when in a function if there is “” then we
+to understand that it’s a string and if there is not that’s an integer . For example (“1”)-is a string & (1)-is a integer.
+These thing named data types of python are explained more in the upcoming pages of the book.Besides in the book it shows that print() is typed
+print “Hello,World!” instead of print(“Hello,World”) cause that’s pyhton2 and this is python3 .See the difference? It might become your habit
+not giving the braces which are very important.
+
+Exercises-2
+Comments!One of the most important thing . To write a comment in python we at first need to type “#”
+which is commonly known as hashtag .when there is “#” in a line ,python ignores that line and moves on.
+Comments help us to understand what really is happening. Let’s suppose you have written a code 2 months ago .
+When you open it , you understand nothing ,everything is kind of topsy turvy cause it’s hard to read through
+the whole code and understand .That’s when comments become helpful. It helps you and others where to pick
+up from and what’s really happening.
+Exercise-3
++	plus
+-	minus
+/	division
+*	multiplication
+%	the remainder of the division
+<	less than
+>	greater than
+<=	less than or equal
+>=	greater or equal
+!=	Not equals to
+==	equals to
+Remember this “=” and this “==” has difference.
+= means your assigning or setting it’s value and == means equal .Besides I recommend to do all the STUDY DRILLS
