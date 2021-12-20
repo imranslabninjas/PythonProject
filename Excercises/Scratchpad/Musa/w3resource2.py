@@ -1,15 +1,16 @@
-#Asking user to input a temperatre value
-temp= int(input("What' the temperature:"))
-#Asking user in what to convert the temperature in.
-converter=str(input("Do you want to convert it into c for Celcius or in f for Farenheit\n"))
-#Using if statements  to convert value
-if converter == "f" or "F":
-    print((5/9) * (temp - 32))
-elif converter == "c" or "C":
-    print((temp*9/5)+32)
-
-
-
-
-
-
+#asking temperature
+temperature = int(input("What's the temperature:"))
+#asking in what to convert
+converter= str(input("Do you want to convert it into c for celcius or f for farenheit:"))
+if converter=="c" or converter=="C":
+    print((temperature-32) * 5/9)
+elif converter == "F" or converter=="f":
+    print((temperature * 9/5) + 32)
+#adding loop so that if user mistypes code re-runs
+while converter!= "f" or converter!="F" or converter!="c" or converter !="C":
+    temperature = int(input("What's the temperature:"))
+    converter = str(input("Do you want to convert it into c for celcius or f for farenheit\n(PLEASE TYPE C IF YOU WANT TO CONVERT IT INTO CELCIUS AND F FOR FARENHEIT)->"))
+    if converter == "c" or converter == "C":
+        print((temperature - 32) * 5 / 9)
+    elif converter == "F" or converter == "f":
+        print((temperature * 9 / 5) + 32)
