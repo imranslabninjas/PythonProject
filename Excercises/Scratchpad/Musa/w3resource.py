@@ -4,7 +4,7 @@
 number = int(input("Type a number:"))
 
 # We are converting number to int at almost every three line
-# What about converting it once and using it multiple times? - food for thought :)-"DONE😄"
+# What about converting it once and using it multiple times? - food for thought :)-"DONE😄" - Good Job
 
 if (number) < 1500 or (number) > 2700:
 

@@ -1,4 +1,4 @@
-#Asking the user to type a number
+# Asking the user to type a number <- Please add link to the question, it will help others
 guessing = int(input("Guess a number:"))
 #having a loop so that if the user types any other thing the code re-runs
 while guessing>= 10:
