@@ -7,6 +7,7 @@ Collaborator.name("Musa")
 borning_year = input("In which year where you born\n->")
 # variable name should be more appropriate
 
+# The code can be shorter, it does not need so many logic. Try to think simply with calm head :)
 borning_month = input("In which month were you born\n->")
 if borning_month == "January":
     borning_month = 1
