@@ -1,4 +1,4 @@
-from datetime import *
+from datetime import datetime.now().year
 from Students import Collaborator
 
 # Please do not import with * , it imports everything, it is not efficient
