@@ -1,8 +1,7 @@
 from datetime import *
-from Students import Collaborator
 
-# Please do not import with * , it imports everything, it is not efficient
-Collaborator.name("Musa")
+
+# Please do not import with * , it imports everything, it is not efficien
 
 borning_year = input("In which year where you born\n->")
 # variable name should be more appropriate
