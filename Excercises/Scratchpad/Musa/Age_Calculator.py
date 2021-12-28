@@ -1,5 +1,5 @@
 from datetime import *
-
+import sys
 
 # Please do not import with * , it imports everything, it is not efficien
 
@@ -36,7 +36,7 @@ elif borning_month =="December":
 age_y = datetime.now().year-int(borning_year)
 age_m = 12-int(borning_month)
 print("You are {0} years and {1} months old".format(age_y,age_m))
-
+sys.stderr.write("This is not a error message but can you make my code more efficient:)")
 
 
 
