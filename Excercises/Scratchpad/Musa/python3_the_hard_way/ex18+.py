@@ -22,6 +22,7 @@ def args(*var):
         opener.write(line3)
         opener.close()
         print("Done")
-
+    elif ask == "no" or "No":
+        print("Ok:)")
 
 args("ex18.py","ex15_sample.txt")
